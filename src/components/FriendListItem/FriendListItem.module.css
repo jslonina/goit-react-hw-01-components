@@ -1,0 +1,36 @@
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .item:hover {
+    background-color: rgb(138, 189, 255);
+    cursor: pointer;
+  }
+  
+  .item:last-child {
+    margin-bottom: 0;
+  }
+
+.online {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: rgb(0, 170, 0);
+    margin-left: 5px;
+  }
+  
+  .offline {
+    composes: online;
+    background-color: rgb(253, 60, 60);
+  }
+  
+  
+
